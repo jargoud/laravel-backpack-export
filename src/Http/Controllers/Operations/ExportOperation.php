@@ -85,7 +85,6 @@ trait ExportOperation
     protected function addExportButton(string $stack = 'top'): self
     {
         CRUD::addButton($stack, 'export', 'view', ServiceProviderAlias::NAMESPACE . '::buttons.export');
-        //CRUD::addButtonFromView($stack, 'export', ServiceProviderAlias::NAMESPACE . '::buttons.export');
 
         return $this;
     }
