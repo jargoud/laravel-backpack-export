@@ -8,6 +8,8 @@
 This package provides a convenient way to export in [Laravel Backpack](https://backpackforlaravel.com/) CRUDs
 with [Laravel Excel](https://laravel-excel.com/).
 
+It provides a custom writer which allows to directly write on `php://stdout`.
+
 ## Installation
 
 You can install the package via composer:
