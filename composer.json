@@ -1,0 +1,37 @@
+{
+    "name": "jargoud/laravel-backpack-export",
+    "description": "Convenient export for Laravel Backpack",
+    "keywords": [
+        "jargoud",
+        "laravel-backpack-export"
+    ],
+    "homepage": "https://github.com/jargoud/laravel-backpack-export",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jeremy Argoud",
+            "email": "jeremy.argoud@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Jargoud\\LaravelBackpackExport\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jargoud\\LaravelBackpackExport\\Providers\\LaravelBackpackExportServiceProvider"
+            ]
+        }
+    }
+}
