@@ -13,13 +13,13 @@ with [Laravel Excel](https://laravel-excel.com/).
 You can install the package via composer:
 
 ```bash
-composer config repositories.laravel-backpack-excel vcs https://github.com/jargoud/laravel-backpack-excel.git
+composer config repositories.laravel-backpack-export vcs https://github.com/jargoud/laravel-backpack-export.git
 composer require jargoud/laravel-backpack-export
 ```
 
 ## Usage
 
-Use [./src/Http/Controllers/Operations/ExportOperation.php][ExportOperation] trait in your CRUD controller and implement
+Use [ExportOperation](./src/Http/Controllers/Operations/ExportOperation.php) trait in your CRUD controller and implement
 the abstract method, for example:
 
 ``` php
