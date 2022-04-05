@@ -43,9 +43,10 @@ trait ExportOperation
     protected function getExportName(): string
     {
         return sprintf(
-            '%s-%s.csv',
+            '%s-%s.%s',
             now()->format('YmdHis'),
-            CRUD::getModel()->getTable()
+            CRUD::getModel()->getTable(),
+            strtolower($this->getExportType())
         );
     }
 
