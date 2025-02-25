@@ -4,7 +4,7 @@ All notable changes to `laravel-backpack-export` will be documented in this file
 
 ## 1.0.3 - 2025-02-25
 
-- Add support for Laravel 9 and 10
+- Add support for Backpack 6
 
 ## 1.0.2 - 2023-03-24
 
