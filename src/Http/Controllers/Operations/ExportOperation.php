@@ -7,7 +7,6 @@ use Illuminate\Contracts\Container\BindingResolutionException;
 use Illuminate\Support\Facades\Route;
 use Jargoud\LaravelBackpackExport\Excel\Excel;
 use Jargoud\LaravelBackpackExport\Excel\Writer;
-use Jargoud\LaravelBackpackExport\Exportable;
 use Jargoud\LaravelBackpackExport\Providers\LaravelBackpackExportServiceProvider as ServiceProviderAlias;
 use Maatwebsite\Excel\Files\Filesystem;
 use Maatwebsite\Excel\QueuedWriter;
